@@ -8,7 +8,7 @@
 
 void setup() 
 {
-  // put your setup code here, to run once:
+  // beginning serial monitor and defining the led as output 
   pinMode(led, OUTPUT);
   Serial.begin(9600);
 }
@@ -16,7 +16,7 @@ void setup()
 void loop() 
 {
  
-  // put your main code here, to run repeatedly:
+  // main code to run repeat. 
   int num = val/17; // reducing 255 to increments of 15
   analogWrite(led, val);  // turn the LED on (HIGH is the voltage level)
   delay(100);  
