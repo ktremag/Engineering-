@@ -20,9 +20,9 @@ When not using a backpack as in the next assignment, the wiring proved challengi
 //insert diagram here
 
 ## [LCD Backpack](Intermediate_Arduino/lcd_backpack/lcd_backpack.ino)
-
+Learned how to reduce the number of pins taken by the LCD screen by using a "LCD backpack" and four female-male jumper cables to wire an LCD screen and button that would display the number of button presses and change the direction (positive/negative) of the count due to a breadboard SPDT switch. 
 ### Lessons Learned/Important points
-
+Learned how to utilize buttons and switches efficiently. It was mildly challenging to only add one count per depress of the button but that could be solved with a few additional lines of code. Additionally, the LCD backpack made using an LCD screen significantly easier than previously. 
 ### Wiring Diagram 
 
 ## [Photointerrupters](Intermediate_Arduino/photoint/photo_int.ino)
