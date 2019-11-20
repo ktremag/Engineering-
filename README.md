@@ -1,6 +1,10 @@
-# Q1 Engineering Arduino Projects
-Arduino code showcasing lcd screens, potentiometers, photointerupters, dc motors, and leds as well as the various ways to utilize them.
-Mostly helpful as a reference for setup and general code using each piece. 
+# Engineering II Notebook
+Includes Arduino code showcasing lcd screens, potentiometers, photointerupters, dc motors, and leds as well as the various ways to utilize them. Mostly helpful as a reference for setup and general code using each piece. 
+
+Additionally, Intermediate CAD files are likewise included in this repository 
+
+# Intermediate Arduino
+
 ## [LED Blink Revisited](Intermediate_Arduino/blinking_fade_w_dash/blinking_fade_w_dash.ino)
 My goal in this assignment was to wire an led with a breadboard and learn to utilize Sublime in order to make the LED blink and fade out. In order to add a secondary layer to the assignment 
 ### Lessons Learned/Important points
@@ -38,3 +42,9 @@ When not using a backpack as in the next assignment, the wiring proved challengi
 ### Lessons Learned/Important points
 
 ### Wiring Diagram 
+
+# Intermediate Cad
+
+## Design Tables
+
+## Advanced & Mechanical Mates
