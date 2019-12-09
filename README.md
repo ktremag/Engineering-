@@ -45,6 +45,4 @@ Learned how to use a photointerrupter as well as ```attachInterrupt()``` to impr
 
 # Intermediate Cad
 
-## Design Tables
-
 ## Advanced & Mechanical Mates
