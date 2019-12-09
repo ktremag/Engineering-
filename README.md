@@ -26,9 +26,9 @@ Learned how to utilize buttons and switches efficiently. It was mildly challengi
 ### Wiring Diagram 
 
 ## [Photointerrupters](Intermediate_Arduino/photoint/photo_int.ino)
-
+ Counted the number of times that something blocked the photointerrupters and had an led correspond to its status. Learned the wiring for photointerrupters and were able to maximize efficiency while minimizing number of lines used. 
 ### Lessons Learned/Important points
-
+Learned how to use a photointerrupter as well as ```attachInterrupt()``` to improve efficiency of the code and increase clarity. Made sure to not let the two pins touch when wiring. Implemented functions. 
 ### Wiring Diagram 
 
 ## [Potentiometers](Intermediate_Arduino/potentiometer/potentiometer_practice.ino)
