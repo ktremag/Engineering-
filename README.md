@@ -6,11 +6,21 @@ Additionally, Intermediate CAD files are likewise included in this repository
 # Intermediate Arduino
 
 ## [LED Blink Revisited](Intermediate_Arduino/blinking_fade_w_dash/blinking_fade_w_dash.ino)
-My goal in this assignment was to wire an led with a breadboard and learn to utilize Sublime in order to make the LED blink and fade out. In order to add a secondary layer to the assignment 
-### Lessons Learned/Important points
-It had been a while since I had utilized an arduino. The coding was not a problem for me but it took a minute or two to remember how to wire things. Additionally, I had not utilized ```analogWrite()``` very heavily in the past so special attention had to be given to putting the pins in the right ports as not all of the pins are analog compatible. 
+My goal in this assignment was to wire an led with a breadboard and learn to utilize Sublime in order to make the LED blink and fade out. In order to add a secondary layer to the assignment, dashes were printed in the serial monitor corresponding to the fade in or out (see below for example). 
+``` 
+-
+--
+---
+----
+--
+-
+```
 ### Wiring Diagram 
-//insert here when fritzing complete
+
+
+### Lessons Learned/Important points
+It had been a while since I had utilized an arduino. The coding was not a problem for me but it took a minute or two to remember how to wire things. Additionally, I had not utilized ```analogWrite()``` very heavily in the past so special attention had to be given to putting the pins in the digital pins marked with dashes to indicate compatibility. 
+
 
 ## [Hello LCD](Intermediate_Arduino/lcd_hello/lcd_hello.ino)
 Learned how to use an LCD screen and utilize packages in sublime in order to display ``` Hello World ``` and the number of seconds since the program began. 
