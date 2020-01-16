@@ -1,3 +1,9 @@
+/* 
+Kit Tremaglio
+LCD Backpack
+Intermediate Arduino
+Fall 2019
+*/
 #include "Arduino.h"
 #include <Wire.h>
 #include <LCD.h>
