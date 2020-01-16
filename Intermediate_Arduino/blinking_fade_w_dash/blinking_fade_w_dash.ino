@@ -1,4 +1,9 @@
-//_0.ino
+/* 
+Kit Tremaglio
+Blinking Fade with Dash
+Intermediate Arduino
+Fall 2019
+*/
 #include "Arduino.h"
 #define led 	10
  int val = 0; //level of led brightness
