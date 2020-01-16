@@ -1,3 +1,9 @@
+/* 
+Kit Tremaglio
+LCD Hello
+Intermediate Arduino
+Fall 2019
+*/
 #include "Arduino.h"
 #include <LiquidCrystal.h> //implementing LiquidCrystal package 
 LiquidCrystal lcd(7, 8, 9, 10, 11, 12); //pins of RS, EN, DB4, DB5, DB6, DB7
@@ -16,7 +22,7 @@ void loop()
 {
   // time since start 
   lcd.setCursor(0,1);
-  lcd.print(t);
-  t++;
-  delay(1000);
+  lcd.print(t); //print time
+  t++; //add on to count
+  delay(1000); // wait
 }
