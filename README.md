@@ -24,34 +24,40 @@ It had been a while since I had utilized an arduino. The coding was not a proble
 
 ## [Hello LCD](Intermediate_Arduino/lcd_hello/lcd_hello.ino)
 Learned how to use an LCD screen and utilize packages in sublime in order to display ``` Hello World ``` and the number of seconds since the program began. 
-### Lessons Learned/Important points
-When not using a backpack as in the next assignment, the wiring proved challenging and required a lot of attention to detail. I utilized [this guide](https://programmingelectronics.com/how-to-set-up-an-lcd-with-arduino/) to generally check my wiring and understanding. The code provided no new challenges. 
 ### Wiring Diagram 
 //insert diagram here
-
+### Lessons Learned/Important points
+When not using a backpack as in the next assignment, the wiring proved challenging and required a lot of attention to detail. I utilized [this guide](https://programmingelectronics.com/how-to-set-up-an-lcd-with-arduino/) to generally check my wiring and understanding. The code provided no new challenges. 
 ## [LCD Backpack](Intermediate_Arduino/lcd_backpack/lcd_backpack.ino)
 Learned how to reduce the number of pins taken by the LCD screen by using a "LCD backpack" and four female-male jumper cables to wire an LCD screen and button that would display the number of button presses and change the direction (positive/negative) of the count due to a breadboard SPDT switch. 
+### Wiring Diagram 
+//insert diagram here
 ### Lessons Learned/Important points
 Learned how to utilize buttons and switches efficiently. It was mildly challenging to only add one count per depress of the button but that could be solved with a few additional lines of code. Additionally, the LCD backpack made using an LCD screen significantly easier than previously. 
-### Wiring Diagram 
+
 
 ## [Photointerrupters](Intermediate_Arduino/photoint/photo_int.ino)
  Counted the number of times that something blocked the photointerrupters and had an led correspond to its status. Learned the wiring for photointerrupters and were able to maximize efficiency while minimizing number of lines used. 
+ ### Wiring Diagram 
+//insert diagram here
+
 ### Lessons Learned/Important points
 Learned how to use a photointerrupter as well as ```attachInterrupt()``` to improve efficiency of the code and increase clarity. Made sure to not let the two pins of the photointerrupter to touch when wiring. Implemented functions to stramline interrupts and clarify actions when object was leaving/coming into the detector. 
-### Wiring Diagram 
+
 
 ## [Potentiometers](Intermediate_Arduino/potentiometer/potentiometer_practice.ino)
 Used a breadboarded mounted potentiometer to control an LEDs brightness and learn how potentiometers interact with arduino and need to be implemented. 
-### Lessons Learned/Important points
-
 ### Wiring Diagram 
+//insert diagram here
+### Lessons Learned/Important points 
 
 ## [Motor Control](Intermediate_Arduino/motor_potent/motor_potent.ino) 
 Broght all of the previous lessons together in order to control a motor's speed with a potentiometer and a lcd screen all at once. The code was fairly simple but ensuring that the battery pack and power supply for the motor was separate from the arduino took checking over. 
+### Wiring Diagram 
+//insert diagram here
 ### Lessons Learned/Important points
 The code was fairly simple but ensuring that the battery pack and power supply for the motor was separate from the arduino took checking over. Taking pictures of my configuration and planning out how to organize the wiring helped a lot in making the assignment go smoother. 
-### Wiring Diagram 
+
 
 # Intermediate Cad
 
