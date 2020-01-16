@@ -50,13 +50,14 @@ Used a breadboarded mounted potentiometer to control an LEDs brightness and lear
 ### Wiring Diagram 
 //insert diagram here
 ### Lessons Learned/Important points 
+Had to be sure to adjust the raw reading from the potentiometer into an actual value in the range that analogwrite() for an led would work with by dividing my "t" value by an integer. Using the potentiometer itself wasn't that difficult except remembering that the three pins correspond with positive the pin and negative and getting them in the correct order. 
 
 ## [Motor Control](Intermediate_Arduino/motor_potent/motor_potent.ino) 
-Broght all of the previous lessons together in order to control a motor's speed with a potentiometer and a lcd screen all at once. The code was fairly simple but ensuring that the battery pack and power supply for the motor was separate from the arduino took checking over. 
+Broght all of the previous lessons together in order to control a motor's speed with a potentiometer and a lcd screen all at once. 
 ### Wiring Diagram 
 //insert diagram here
 ### Lessons Learned/Important points
-The code was fairly simple but ensuring that the battery pack and power supply for the motor was separate from the arduino took checking over. Taking pictures of my configuration and planning out how to organize the wiring helped a lot in making the assignment go smoother. 
+The code was fairly simple but ensuring that the battery pack and power supply for the motor was separate from the arduino took checking over. Taking pictures of my configuration and planning out how to organize the wiring helped a lot in making the assignment go smoother. Had to be sure to use the correct resistor (PN2222) and to use the diode correctly. 
 
 
 # Intermediate Cad
