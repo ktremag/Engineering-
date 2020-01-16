@@ -1,3 +1,9 @@
+/* 
+Kit Tremaglio
+Photointerruptur Practice
+Intermediate Arduino
+Fall 2019
+*/
 #include "Arduino.h"
 int ledPin = 10; // led pin
 int pintPin1 = 2;  //photo interrupter pin 1
