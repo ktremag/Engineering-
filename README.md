@@ -64,3 +64,6 @@ The code was fairly simple but ensuring that the battery pack and power supply f
 
 ## Advanced & Mechanical Mates
 Brushed off on Solidworks general skills. Used design tables to create multiple versions of a part and fit them together with more complex mates than I had previously used. Ran into some difficulty with the smallest of the nesting parts due to my implementation of the design table with numbers rather than variables and the suppression of features being linked to the core structure of my assembly but fixed easily once problem was identified through taking different parts out of the assembly and replacing them to find the root of the problem. Also brushed up on how to change appeances of objects in solidwords. 
+![Advanced Mates](https://github.com/fmyhre77/Engineering2/blob/master/Media/CAD/Advanced_MM.JPG)
+
+# Image Documentation
