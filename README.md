@@ -16,8 +16,7 @@ My goal in this assignment was to wire an led with a breadboard and learn to uti
 -
 ```
 ### Wiring Diagram 
-
-
+![LED Blink](https://github.com/ktremag/Engineering-/blob/master/Media/led%20blink.png)
 ### Lessons Learned/Important points
 It had been a while since I had utilized an arduino. The coding was not a problem for me but it took a minute or two to remember how to wire things and check that my ground and 5V were in the correct places. Additionally, I had not utilized ```analogWrite()``` very heavily in the past so special attention had to be given to putting the pins in the digital pins marked with dashes to indicate compatibility. 
 
@@ -25,13 +24,14 @@ It had been a while since I had utilized an arduino. The coding was not a proble
 ## [Hello LCD](Intermediate_Arduino/lcd_hello/lcd_hello.ino)
 Learned how to use an LCD screen and utilize packages in sublime in order to display ``` Hello World ``` and the number of seconds since the program began. 
 ### Wiring Diagram 
-//insert diagram here
+![Hello LCD](https://github.com/ktremag/Engineering-/blob/master/Media/lcd.jpg)
 ### Lessons Learned/Important points
 When not using a backpack as in the next assignment, the wiring proved challenging and required a lot of attention to detail. I utilized [this guide](https://programmingelectronics.com/how-to-set-up-an-lcd-with-arduino/) to generally check my wiring and understanding. The code provided no new challenges. 
+
 ## [LCD Backpack](Intermediate_Arduino/lcd_backpack/lcd_backpack.ino)
 Learned how to reduce the number of pins taken by the LCD screen by using a "LCD backpack" and four female-male jumper cables to wire an LCD screen and button that would display the number of button presses and change the direction (positive/negative) of the count due to a breadboard SPDT switch. 
 ### Wiring Diagram 
-//insert diagram here
+![LCD Backpack](https://github.com/ktremag/Engineering-/blob/master/Media/button%20press.jpg)
 ### Lessons Learned/Important points
 Learned how to utilize buttons and switches efficiently. It was mildly challenging to only add one count per depress of the button but that could be solved with a few additional lines of code. Additionally, the LCD backpack made using an LCD screen significantly easier than previously. 
 
@@ -39,7 +39,7 @@ Learned how to utilize buttons and switches efficiently. It was mildly challengi
 ## [Photointerrupters](Intermediate_Arduino/photoint/photo_int.ino)
  Counted the number of times that something blocked the photointerrupters and had an led correspond to its status. Learned the wiring for photointerrupters and were able to maximize efficiency while minimizing number of lines used. 
  ### Wiring Diagram 
-//insert diagram here
+![Photoint](https://github.com/ktremag/Engineering-/blob/master/Media/photoint.jpg)
 
 ### Lessons Learned/Important points
 Learned how to use a photointerrupter as well as ```attachInterrupt()``` to improve efficiency of the code and increase clarity. Made sure to not let the two pins of the photointerrupter to touch when wiring. Implemented functions to stramline interrupts and clarify actions when object was leaving/coming into the detector. 
@@ -48,14 +48,14 @@ Learned how to use a photointerrupter as well as ```attachInterrupt()``` to impr
 ## [Potentiometers](Intermediate_Arduino/potentiometer/potentiometer_practice.ino)
 Used a breadboarded mounted potentiometer to control an LEDs brightness and learn how potentiometers interact with arduino and need to be implemented. 
 ### Wiring Diagram 
-//insert diagram here
+![Potento](https://github.com/ktremag/Engineering-/blob/master/Media/lcd_blink.jpg)
 ### Lessons Learned/Important points 
 Had to be sure to adjust the raw reading from the potentiometer into an actual value in the range that analogwrite() for an led would work with by dividing my "t" value by an integer. Using the potentiometer itself wasn't that difficult except remembering that the three pins correspond with positive the pin and negative and getting them in the correct order. 
 
 ## [Motor Control](Intermediate_Arduino/motor_potent/motor_potent.ino) 
 Broght all of the previous lessons together in order to control a motor's speed with a potentiometer and a lcd screen all at once. 
 ### Wiring Diagram 
-//insert diagram here
+![Motor](https://github.com/ktremag/Engineering-/blob/master/Media/motor%20control.jpg)
 ### Lessons Learned/Important points
 The code was fairly simple but ensuring that the battery pack and power supply for the motor was separate from the arduino took checking over. Taking pictures of my configuration and planning out how to organize the wiring helped a lot in making the assignment go smoother. Had to be sure to use the correct resistor (PN2222) and to use the diode correctly. 
 
